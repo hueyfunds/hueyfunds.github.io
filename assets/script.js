@@ -1,12 +1,13 @@
 $( document ).ready(function() {
     
-var ethjson;
-$.getJSON("api.coinmarketcap.com/v1/ticker/ethereum/?q=price_usd", function(json){
-    ethjson = json;
+
+var myjson;
+$.getJSON("https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD", function(json){
+    myjson = json;
 });
 
 
-    $("div.ethvalue").html(ethjson);
+    $("div.ethvalue").html(myjson);
 
 });
 
