@@ -1,0 +1,23 @@
+html {font-family: 'Montserrat', sans-serif; font-size: 2vw; }
+h1 { font-size: 2em; text-align: center;}
+h2 { font-family: 'Montserrat';text-align: center; }
+
+html, h1, body {
+padding: 0 !important;
+margin: 0 !important;
+}
+
+div .widget {
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+
+
+/* Columns and Widgets */
+div .column {
+	width: 25%;
+	float: left;
+	text-align:center;
+	display:inline;
+	padding-bottom: 1vw;
+}
